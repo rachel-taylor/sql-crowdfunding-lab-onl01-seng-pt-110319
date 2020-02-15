@@ -5,7 +5,6 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts
   ON projects.id = pledges.project_id
   GROUP BY projects.id
   ORDER BY projects.title;"
-
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges
